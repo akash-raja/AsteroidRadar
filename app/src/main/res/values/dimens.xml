@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asteroid_margin">16dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="asteroid_date_padding">8dp</dimen>
+    <dimen name="asteroid_status_size">40dp</dimen>
+    <dimen name="image_height">220dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin_top_detail">4dp</dimen>
+</resources>
