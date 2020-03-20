@@ -1,9 +1,9 @@
-package com.udacity.asteroidradar.database
+package com.example.asteroidradar.database
 
 import androidx.lifecycle.LiveData
 import com.example.asteroidradar.Asteroid
-import com.udacity.asteroidradar.api.RetrofitFactory.getRetrofitFactory
-import com.udacity.asteroidradar.api.parseAsteroidsJsonResult
+import com.example.asteroidradar.api.RetrofitFactory.getRetrofitFactory
+import com.example.asteroidradar.api.parseAsteroidsJsonResult
 import org.json.JSONObject
 
 class AsteroidRepository(private val asteroidsDao: AsteroidsDao) {

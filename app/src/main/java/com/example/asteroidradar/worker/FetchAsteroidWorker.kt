@@ -3,10 +3,10 @@ package com.example.asteroidradar.worker
 import android.content.Context
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.udacity.asteroidradar.api.RetrofitFactory.getRetrofitFactory
-import com.udacity.asteroidradar.api.getTodaysDate
-import com.udacity.asteroidradar.api.parseAsteroidsJsonResult
-import com.udacity.asteroidradar.database.AsteroidDatabase
+import com.example.asteroidradar.api.RetrofitFactory.getRetrofitFactory
+import com.example.asteroidradar.api.getTodaysDate
+import com.example.asteroidradar.api.parseAsteroidsJsonResult
+import com.example.asteroidradar.database.AsteroidDatabase
 import org.json.JSONObject
 
 class FetchAsteroidWorker(private val context: Context, workerParameters: WorkerParameters) :

@@ -9,11 +9,11 @@ import androidx.lifecycle.viewModelScope
 import com.example.asteroidradar.R
 import com.example.asteroidradar.Asteroid
 import com.example.asteroidradar.PictureOfDay
-import com.udacity.asteroidradar.api.RetrofitFactory.getRetrofitFactory
-import com.udacity.asteroidradar.api.getTodaysDate
-import com.udacity.asteroidradar.api.isNetworkAvailable
-import com.udacity.asteroidradar.database.AsteroidDatabase
-import com.udacity.asteroidradar.database.AsteroidRepository
+import com.example.asteroidradar.api.RetrofitFactory.getRetrofitFactory
+import com.example.asteroidradar.api.getTodaysDate
+import com.example.asteroidradar.api.isNetworkAvailable
+import com.example.asteroidradar.database.AsteroidDatabase
+import com.example.asteroidradar.database.AsteroidRepository
 import kotlinx.coroutines.launch
 
 class MainViewModel(application: Application) : AndroidViewModel(application) {

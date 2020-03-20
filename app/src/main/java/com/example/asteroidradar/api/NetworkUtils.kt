@@ -1,4 +1,4 @@
-package com.udacity.asteroidradar.api
+package com.example.asteroidradar.api
 
 import android.content.Context
 import android.net.ConnectivityManager
