@@ -1,7 +1,7 @@
 package com.udacity.asteroidradar.api
 
 import com.example.asteroidradar.api.NASAService
-import com.udacity.asteroidradar.Constants.BASE_URL
+import com.example.asteroidradar.Constants.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory

@@ -7,8 +7,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.example.asteroidradar.R
-import com.udacity.asteroidradar.Asteroid
-import com.udacity.asteroidradar.PictureOfDay
+import com.example.asteroidradar.Asteroid
+import com.example.asteroidradar.PictureOfDay
 import com.udacity.asteroidradar.api.RetrofitFactory.getRetrofitFactory
 import com.udacity.asteroidradar.api.getTodaysDate
 import com.udacity.asteroidradar.api.isNetworkAvailable

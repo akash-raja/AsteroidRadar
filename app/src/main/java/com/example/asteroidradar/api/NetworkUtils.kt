@@ -3,8 +3,8 @@ package com.udacity.asteroidradar.api
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
-import com.udacity.asteroidradar.Asteroid
-import com.udacity.asteroidradar.Constants
+import com.example.asteroidradar.Asteroid
+import com.example.asteroidradar.Constants
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.util.*

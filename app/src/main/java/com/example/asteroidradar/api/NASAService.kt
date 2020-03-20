@@ -1,7 +1,7 @@
 package com.example.asteroidradar.api
 
 import com.example.asteroidradar.BuildConfig
-import com.udacity.asteroidradar.PictureOfDay
+import com.example.asteroidradar.PictureOfDay
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

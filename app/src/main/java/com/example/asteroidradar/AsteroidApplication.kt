@@ -2,8 +2,8 @@ package com.example.asteroidradar
 
 import android.app.Application
 import androidx.work.*
-import com.udacity.asteroidradar.Constants.WORK_TAG
-import com.udacity.asteroidradar.worker.FetchAsteroidWorker
+import com.example.asteroidradar.Constants.WORK_TAG
+import com.example.asteroidradar.worker.FetchAsteroidWorker
 import java.util.concurrent.TimeUnit
 
 class AsteroidApplication() : Application() {

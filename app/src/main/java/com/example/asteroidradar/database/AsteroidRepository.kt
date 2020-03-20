@@ -1,7 +1,7 @@
 package com.udacity.asteroidradar.database
 
 import androidx.lifecycle.LiveData
-import com.udacity.asteroidradar.Asteroid
+import com.example.asteroidradar.Asteroid
 import com.udacity.asteroidradar.api.RetrofitFactory.getRetrofitFactory
 import com.udacity.asteroidradar.api.parseAsteroidsJsonResult
 import org.json.JSONObject

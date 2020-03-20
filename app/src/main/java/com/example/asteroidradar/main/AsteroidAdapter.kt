@@ -7,7 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.asteroidradar.R
 import com.example.asteroidradar.databinding.AsteroidItemBinding
-import com.udacity.asteroidradar.Asteroid
+import com.example.asteroidradar.Asteroid
 
 class AsteroidAdapter(private val context: Context, private val listener: (Asteroid) -> Unit) :
     RecyclerView.Adapter<AsteroidAdapter.ViewHolder>() {
